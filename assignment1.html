@@ -1,0 +1,134 @@
+<html>
+  <head>
+    <title>assignment1</title>
+    <style>
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: rgb(7, 6, 6);
+      }
+
+      li {
+        float: left;
+      }
+
+      li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      li a:hover {
+        background-color: #111;
+      }
+    </style>
+  </head>
+  <body>
+    <ul>
+      <li>
+        <a
+          href="https://developer.mozilla.org/en-US/docs/Web/HTML"
+          target="_blank"
+          >HTML</a
+        >
+      </li>
+      <li>
+        <a
+          href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+          target="_blank"
+          >JAVA SCRIPT</a
+        >
+      </li>
+      <li>
+        <a href="https://en.wikipedia.org/wiki/CSS" target="_blank"
+          >JAVA SCRIPT</a
+        >
+      </li>
+    </ul>
+    <center>
+      <p style="font-size: 200%">
+        <b><big>The Table</big></b>
+      </p>
+    </center>
+    <table border="2" align="center" style="height: 400; width: 900">
+      <tr>
+        <td></td>
+        <td>monday</td>
+        <td>tuesday</td>
+        <td>wednesday</td>
+        <td>thursday</td>
+        <td>friday</td>
+      </tr>
+      <tr>
+        <td>1:00 pm</td>
+        <td rowspan="2" bgcolor="yellow">html</td>
+        <td></td>
+        <td rowspan="2" bgcolor="beige">html</td>
+        <td rowspan="8" bgcolor="beige">HTML Hour by Apps</td>
+        <td rowspan="2" bgcolor="beige">html</td>
+      </tr>
+      <tr>
+        <td>3:00 pm</td>
+        <td rowspan="2" bgcolor="grey">Deptmeeting</td>
+      </tr>
+      <tr>
+        <td>2:00 pm</td>
+        <td rowspan="3" bgcolor="green">CSS</td>
+        <td rowspan="3" bgcolor="green">CSS</td>
+        <td rowspan="3" bgcolor="green">CSS</td>
+      </tr>
+      <tr>
+        <td>3:00 pm</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>5:00 pm</td>
+        <td rowspan="3" bgcolor="grey">EC Meeting</td>
+      </tr>
+      <tr>
+        <td>3:30 pm</td>
+        <td rowspan="3" bgcolor="cyan">CSC205</td>
+        <td rowspan="3" bgcolor="cyan">CSC205</td>
+        <td rowspan="3" bgcolor="cyan">CSC205</td>
+      </tr>
+      <tr>
+        <td>3:30 pm</td>
+      </tr>
+      <tr>
+        <td>4:00 pm</td>
+      </tr>
+    </table>
+    <p style="font-size: 200%">
+      <b><big>Click on the picture to know more informations.</big></b>
+    </p>
+    <center>
+      <img src="assignment1.jpg" alt="html pic" usemap="#htmlmap" />
+      <map name="htmlmap">
+        <area
+          alt="html"
+          href="https://developer.mozilla.org/en-US/docs/Web/HTML"
+          target="_blank"
+          coords="77,158,380,589"
+          shape="rect"
+        />
+        <area
+          alt="javascript"
+          href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+          target="_blank"
+          coords="410,103,710,528"
+          shape="rect"
+        />
+        <area
+          alt="CSS"
+          href="https://en.wikipedia.org/wiki/CSS"
+          target="_blank"
+          coords="746,158,1046,590"
+          shape="rect"
+        />
+      </map>
+    </center>
+  </body>
+</html>
